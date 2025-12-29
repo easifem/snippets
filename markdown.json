@@ -110,6 +110,24 @@
     "body": "<!-- markdownlint-disable MD041 MD013 MD033 -->$0",
     "description": "markdownlint-disable"
   },
+  "qmd-warning": {
+    "prefix": "qmd warning",
+    "description": "callout warning",
+    "body": [
+      "::: {.callout-warning title=\"${1}\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-warning-simple": {
+    "prefix": "qmd warning simple",
+    "description": "callout warning simple",
+    "body": [
+      "::: {.callout-warning appearance=\"simple\" }",
+      "${2}",
+      ":::"
+    ]
+  },
   "qmd-note": {
     "prefix": "qmd note",
     "description": "callout note",
@@ -124,6 +142,78 @@
     "description": "callout note simple",
     "body": [
       "::: {.callout-note appearance=\"simple\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-tip": {
+    "prefix": "qmd tip",
+    "description": "callout tip",
+    "body": [
+      "::: {.callout-tip title=\"${1}\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-tip-simple": {
+    "prefix": "qmd tip simple",
+    "description": "callout tip simple",
+    "body": [
+      "::: {.callout-tip appearance=\"simple\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-warning": {
+    "prefix": "qmd warning",
+    "description": "callout warning",
+    "body": [
+      "::: {.callout-warning title=\"${1}\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-warning-simple": {
+    "prefix": "qmd warning simple",
+    "description": "callout warning simple",
+    "body": [
+      "::: {.callout-warning appearance=\"simple\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-important": {
+    "prefix": "qmd important",
+    "description": "callout important",
+    "body": [
+      "::: {.callout-important title=\"${1}\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-important-simple": {
+    "prefix": "qmd important simple",
+    "description": "callout important simple",
+    "body": [
+      "::: {.callout-important appearance=\"simple\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-caution": {
+    "prefix": "qmd caution",
+    "description": "callout caution",
+    "body": [
+      "::: {.callout-caution title=\"${1}\" }",
+      "${2}",
+      ":::"
+    ]
+  },
+  "qmd-caution-simple": {
+    "prefix": "qmd caution simple",
+    "description": "callout caution simple",
+    "body": [
+      "::: {.callout-caution appearance=\"simple\" }",
       "${2}",
       ":::"
     ]
